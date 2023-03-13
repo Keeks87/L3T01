@@ -1,7 +1,8 @@
 import xml.etree.ElementTree as ET
 
-# Read in the movie.xml file
-tree = ET.parse('movie.xml')
+# Use a context manager for file I/O
+with open('movie.xml', 'r') as f:
+    tree = ET.parse(f)
 root = tree.getroot()
 
 # List all the child tags of the movie element using iter() function
