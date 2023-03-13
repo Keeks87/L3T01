@@ -8,8 +8,8 @@ root = tree.getroot()
 for child in root.iter('movie'):
     print(list(child))
 
-# Print out the movie descriptions using itertext() function
-for desc in root.iter('description'):
+# Print out the movie descriptions
+for desc in root.findall('.//description'):
     print(desc.text)
 
 # Use a dictionary to count the number of favourites
