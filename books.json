@@ -1,0 +1,39 @@
+[
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "year": 1925,
+      "genre": "Fiction"
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "year": 1960,
+      "genre": "Fiction"
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "year": 1949,
+      "genre": "Science Fiction"
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "year": 1813,
+      "genre": "Fiction"
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "year": 1951,
+      "genre": "Fiction"
+    },
+    {
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "year": 1967,
+      "genre": "Magical Realism"
+    }
+  ]
+  
