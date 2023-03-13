@@ -4,9 +4,10 @@ import xml.etree.ElementTree as ET
 tree = ET.parse('movie.xml')
 root = tree.getroot()
 
-# List all the child tags of the movie element using iter() function
+# List all the child tags of the movie element
 for child in root.iter('movie'):
-    print(list(child))
+    for subelement in child:
+        print(subelement.tag, subelement.text)
 
 # Print out the movie descriptions
 for desc in root.findall('.//description'):
